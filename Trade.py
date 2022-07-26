@@ -153,7 +153,7 @@ def main(app_data):
     else:
         testing_prefix = 'Analysed'
 
-    st.success(f'Actions based on the Historical Price of {label[:6]}.({testing_prefix})')
+    st.success(f'Historical Price of {label[:6]} Related Actions.({testing_prefix})')
     st.plotly_chart(prediction_fig, use_container_width = True)
 
     technical_analysis_fig = analysis.technical_analysis_graph()
