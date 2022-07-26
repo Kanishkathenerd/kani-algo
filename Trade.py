@@ -78,9 +78,9 @@ def main(app_data):
     st.sidebar.subheader('Trading Volatility:')
     risk = st.sidebar.selectbox('', ('Low', 'Medium', 'High'), index = volitility_index)
 
-    st.title(f'Automated Technical Analysis.')
+    st.title(f'Algorithmic Trading System - KS V1.')
     st.subheader(f'{label} Data Sourced from {exchange}.')
-    st.info(f'Predicting...')
+    st.info(f'Prediction.')
     
     future_price = 1   
     analysis = Visualization(exchange, interval, equity, indication, action_model, price_model, market)
@@ -153,7 +153,7 @@ def main(app_data):
     else:
         testing_prefix = 'Analysed'
 
-    st.success(f'Historical {label[:6]} Price Action...({testing_prefix})')
+    st.success(f'Actions based on {label[:6]} the Historical Price.({testing_prefix})')
     st.plotly_chart(prediction_fig, use_container_width = True)
 
     technical_analysis_fig = analysis.technical_analysis_graph()
