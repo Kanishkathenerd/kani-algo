@@ -80,7 +80,7 @@ def main(app_data):
 
     st.title(f'Algorithmic Trading System - KS V1.')
     st.subheader(f'{label} Data Sourced from {exchange}.')
-    st.info(f'Prediction.')
+    st.info(f'General Data')
     
     future_price = 1   
     analysis = Visualization(exchange, interval, equity, indication, action_model, price_model, market)
@@ -153,11 +153,11 @@ def main(app_data):
     else:
         testing_prefix = 'Analysed'
 
-    st.success(f'Actions based on {label[:6]} the Historical Price.({testing_prefix})')
+    st.success(f'Actions based on the Historical Price of {label[:6]}.({testing_prefix})')
     st.plotly_chart(prediction_fig, use_container_width = True)
 
     technical_analysis_fig = analysis.technical_analysis_graph()
-    st.success (f'Technical Analysis results from the {label[:6]} Data...')
+    st.success (f'Technical Analysis results from the {label[:6]} Data')
     st.plotly_chart(technical_analysis_fig, use_container_width = True) 
     
 
