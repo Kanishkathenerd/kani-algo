@@ -1,4 +1,4 @@
-# Financial trading using Technical and Timeseries Analysis. [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/akurgat/automating-technical-analysis/Trade.py)
+# Algorithmic Trading System - KS V1. [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/akurgat/automating-technical-analysis/Trade.py)
 
 ## Links:
 
