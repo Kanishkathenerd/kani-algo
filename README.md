@@ -6,5 +6,5 @@
 
 ## Project goal:
 
-Profitable stocks and crypto trading involves a lot of know how and experience in Technical Analysis. However, the fundamentals behind technical analysis techniques, tools, resources and effective strategies can be complex to grasp, understand and even expensive to access.
+The fundamentals behind technical analysis techniques, tools, resources and effective strategies can be complex to grasp, understand and even expensive to access. As such this program uses 3 simple indicators found in the analysis of stocks, and attemps to utilize it in Crypto, Commodities, and of course Stocks to help investors make an informed decision.
 
