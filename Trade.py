@@ -78,7 +78,7 @@ def main(app_data):
     st.sidebar.subheader('Trading Volatility:')
     risk = st.sidebar.selectbox('', ('Low', 'Medium', 'High'), index = volitility_index)
 
-    st.title(f'Algorithmic Trading System - KS V1')
+    st.title(f'ALGORITHMIC TRADING SYSTEM - KS V1')
     st.subheader(f'{label} Data Sourced from {exchange}')
     st.info(f'General Data')
     
